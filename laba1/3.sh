@@ -1,4 +1,3 @@
-  GNU nano 4.3                          3.sh                                    
 #!/bin/bash
 read a
 s=""
