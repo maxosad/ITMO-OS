@@ -1,2 +1,3 @@
 #!/bin/bash
-cat /var/log/*.log | wc -l
+find /var/log/ -name "*.log" | xargs -n 1 cat | wc -l
+
